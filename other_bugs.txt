@@ -1,0 +1,5 @@
+1. fatal error: caffe/proto/caffe.pb.h: 没有那个文件或目录
+   solver:
+          protoc src/caffe/proto/caffe.proto --cpp_out=.
+          mkdir include/caffe/proto
+          mv src/caffe/proto/caffe.pb.h include/caffe/proto
